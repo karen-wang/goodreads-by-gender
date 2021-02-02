@@ -38,11 +38,11 @@ There are a few books with an average rating of 0 in the dataset. I removed them
 
 After the above data manipulations I produced the following boxplots for comparison:
 
-![image info](./images/ratings_by_author_gender_with_outliers.png)
+![image info](ratings_by_author_gender_with_outliers.png)
 
 Based on what I can remember from my high school statistics class, and some light Googling, there doesn’t appear to be much difference in ratings by author gender. If I remove the outliers, the ratings for female authors does look to be juuust slightly lower:
 
-![image info](./images/ratings_by_author_gender.png)
+![image info](ratings_by_author_gender.png)
 
 And indeed the median ratings value for female authors, 3.92, is lower than that for male and gender-neutral authors, at 3.97 and 4.0 respectively. But this doesn’t seem statistically significant.
 
