@@ -51,5 +51,5 @@ I did, however, notice that the number of reviewed female authors is way less th
 Or are they? The plot thickens...
 
 ## Datasets
-https://www.kaggle.com/jealousleopard/goodreadsbooks
-https://www.ssa.gov/oact/babynames/limits.html
+* https://www.kaggle.com/jealousleopard/goodreadsbooks
+* https://www.ssa.gov/oact/babynames/limits.html
