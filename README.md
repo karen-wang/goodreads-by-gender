@@ -1,5 +1,5 @@
 # Goodreads by Gender
-Are Goodreads Reviewers Sexist?
+Do Goodreads Reviews Contain a Gender Bias?
 
 Last year I powered through a copy of Marie Kondo’s <em>The Life-Changing Magic of Tidying Up</em> and absolutely loved it. However, when I checked it out on Goodreads I was surprised to find that it only garnered an average rating of 3.84 (I gave it 5 stars). My inner cynic wondered if it was because the author is a woman.
 
