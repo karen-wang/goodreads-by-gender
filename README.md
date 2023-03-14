@@ -3,7 +3,7 @@ Do Goodreads Reviews Contain a Gender Bias?
 
 Last year I powered through a copy of Marie Kondo’s <em>The Life-Changing Magic of Tidying Up</em> and absolutely loved it. However, when I checked it out on Goodreads I was surprised to find that it only garnered an average rating of 3.84 (I gave it 5 stars). My inner cynic wondered if it was because the author is a woman.
 
-Historically, women have taken on male pseudonyms to solicit male readership and avoid prejudice in male-dominated publishing circles. While the practice is less common today, I couldn’t help but wonder if women who publish under their given names still suffer from implicit bias. In other words, do readers unconsciously judge women authors more harshly than men?
+Historically, women have taken on male pseudonyms to solicit male readership and avoid prejudice in male-dominated publishing circles. While the practice is less common today, I couldn’t help but wonder if women who publish under their given names still suffer due to implicit bias. In other words, do readers unconsciously judge women authors more harshly than men?
 
 I pick on Goodreads because, paradoxically, I love using it. It’s a great social-network-slash-recommendation-system where I can both show off how well-read I am and find new books to read.
 
