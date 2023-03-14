@@ -15,13 +15,13 @@ To determine the gender of authors, I used a baby names dataset compiled by the 
 
 It turns out that determining the gender of a name can get pretty nuanced. (This makes sense, since gender is just a social construct, eh?)
 
-For example, some names can be different genders depending on the language of origin. For example, Karen is typically female in English, but male in Armenian. There are also names which are gender-neutral in English, such as Taylor, Hunter, or...Kale (I guess). 
+For example, some names can be different genders depending on their language of origin. For example, Karen is typically female in English, but male in Armenian. There are also names that are gender-neutral in English, such as Taylor, Hunter, or...Kale (I guess). 
 
 To resolve the gender-ambiguity of names, I used the crude heuristic where a name is the gender that it is assigned to at least 95% of the time. So, if there are 10,000 Karens and at least 9,500 of them are female, then Karen is female. On the other hand, if a name doesn’t have this 95/5 split, then I labelled it gender-neutral.
 
-Also, as I mentioned previously, some authors still publish under pseudonyms. Then there’s no way to tell using just the dataset what the actual gender of the author is. Fortunately, this isn’t a problem - if we assume that people are giving ratings based on perceived gender of the author, then it doesn’t matter what the author’s true gender is. 
+As I mentioned previously, some authors still publish under pseudonyms. In that case, there’s no way to tell using just the dataset what the actual gender of the author is. Fortunately, this isn’t a problem - if we assume that people are rate books based on their perceived gender of the author, then it doesn’t matter what the author’s true gender is. 
 
-Finally, if an author’s name isn’t represented in the baby names list (ex. Kazuo Ishiguro), or if it only consists of  initials (ex. J.K. Rowling), then I labelled it gender-neutral (because I’m lazy).
+Finally, if a name isn’t represented in the baby names list (ex. Kazuo Ishiguro), or if it only consists of initials (ex. J.K. Rowling), then I labelled it gender-neutral (because I’m lazy).
 
 Some more assumptions:
 Some books have multiple authors, but only one rating. I added a unique data point for each author. So if a book has Author A (female) and Author B (male) and has a rating of 4.0, then I added the following two data points:
@@ -34,7 +34,7 @@ On a related note, some authors have multiple books. I added a unique data point
 Female, 4.5
 Female, 3.0
 
-There are a few books with an average rating of 0 in the dataset. I removed them because it’s impossible for users to give books a rating of 0, so this indicates that nobody has reviewed them yet.
+There are a few books with an average rating of 0 in the dataset. I removed them because it’s impossible for users to give books a rating of 0, so this indicates that these books don't have any reviews yet.
 
 After following the steps above to normalize the data, I produced the following boxplots for comparison:
 
