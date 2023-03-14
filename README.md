@@ -26,13 +26,17 @@ Finally, if a name isn’t represented in the baby names list (ex. Kazuo Ishigur
 
 After resolving the gender ambiguties, I took a few more steps to normalize the data. Some books have multiple authors, but only one rating. I added a unique data point for each author. So if a book has Author A (female) and Author B (male) and has a rating of 4.0, then I added the following two data points:
 
+```
 Female, 4.0
 Male, 4.0
+```
 
 On a related note, some authors have multiple books. I added a unique data point for each book. So if Author A (female) wrote Book 1 with a rating of 4.5 and Book 2 with a rating of 3.0, I added the following data points:
 
+```
 Female, 4.5
 Female, 3.0
+```
 
 There are a few books with an average rating of 0 in the dataset. I removed them because it’s impossible for users to give books a rating of 0, so this indicates that these books don't have any reviews yet.
 
